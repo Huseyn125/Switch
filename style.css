@@ -445,11 +445,11 @@ hr {
 .blue { background: #3498db; }
 .red { background: #e74c3c; }
 
-form {
+.contact-form {
     margin-top: 15px;
 }
 
-input, textarea {
+.contact-form input,.contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -459,12 +459,12 @@ input, textarea {
     border-radius: 10px;
 }
 
-textarea {
+.contact-form textarea {
     border-radius: 10px;
     height: 80px;
 }
 
-button {
+.contact-form button {
     border-radius: 10px;
     text-transform: uppercase;
     width: 100%;
